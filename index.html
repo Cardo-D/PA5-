@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <title>Bootstrap Forms</title>
+</head>
+<body class ="bg-light text-light">
+
+    <div class="container">
+        <form action="" method="post">
+
+        <h2 class="text-center">Snicker order</h2>
+
+        <label for="form-name">Name:</label> 
+        <input type="text" name="username" id="form-name" class="form-control">
+    
+        <label for="form-email">Email:</label> 
+        <input type="email" class="form-control" name="emailaddress" id="form-email">
+
+        <label for="form-tel">Telephone:</label> 
+        <input type="tel" class="form-control" name="telephone" id="form-tel">
+
+        <label for="form-story">Tell us about yourself:</label> 
+        <textarea name="story" maxlength="600" id="form-story" placeholder="No more than 600 characters long" class="form-control"></textarea>
+        
+        <label for="sizes">Size:</label>
+        <select name="size" id="sizes" class="form-select">
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+        </select> 
+        
+        <em>Sizes reflect standard US men's sizes</em>
+<div class="form-check">
+  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">Red
+  <label class="form-check-label" for="radio1"></label>
+</div>
+<div class="form-check">
+  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Blue
+  <label class="form-check-label" for="radio2"></label>
+</div>
+<div class="form-check">
+  <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3">Black
+  <label class="form-check-label" for="radio3"></label>
+</div>
+<div class="form-check">
+  <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4">Silver
+  <label class="form-check-label" for="radio4"></label>
+</div>
+        <label for="features">Add-on Features:</label>
+        <fieldset id="features">
+            <legend>Feature</legend>
+            <label><input type="checkbox" class="form-check-input color-success" name="feature" value="laces"> Sparkley laces</label>
+            <label><input type="checkbox" class="form-check-input color-success" name="feature" value="logo"> Metallic logo</label>
+            <label><input type="checkbox" class="form-check-input color-success" name="feature" value="heels"> Light-up heels</label>
+            <label><input type="checkbox" class="form-check-input color-success" name="feature" value="mp3"> MP3-enabled</label>
+        </fieldset>
+            
+        <input type="submit" class="btn btn-block btn-success mt-3 mb-3" value="ENTER">
+    </form>
+    </div>
+    
+    
+</body>
+</html>

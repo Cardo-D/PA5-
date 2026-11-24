@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(179, 103, 255);\
+
+
+}
+
+.container {
+    background-color: rgb(255, 91, 91);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+form .form-control,
+form .form-select {
+    background-color: #fff3cd; /* Replace with your color */
+}
